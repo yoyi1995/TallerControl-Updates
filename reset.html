@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; connect-src 'none'; img-src 'none'; form-action 'none'; base-uri 'none'">
+  <meta name="referrer" content="no-referrer">
+  <title>Abrir TallerControl</title>
+  <style>
+    body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: #f3f6fa; color: #172b43; font: 16px/1.5 system-ui, sans-serif; }
+    main { box-sizing: border-box; width: min(100% - 32px, 460px); padding: 32px; background: white; border-radius: 16px; box-shadow: 0 10px 35px #172b4317; }
+    h1 { margin-top: 0; font-size: 1.65rem; }
+    button { width: 100%; padding: 14px 18px; border: 0; border-radius: 8px; background: #1458a4; color: white; font: inherit; font-weight: 700; cursor: pointer; }
+    button:focus-visible { outline: 3px solid #f4a300; outline-offset: 3px; }
+    button[hidden] { display: none; }
+    .hint { color: #526579; font-size: .92rem; }
+    .error { color: #a02020; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>TallerControl</h1>
+    <p id="status" role="status">Preparando la recuperación de contraseña…</p>
+    <button id="open-app" type="button" hidden>Abrir TallerControl</button>
+    <p id="install-hint" class="hint" hidden>Si TallerControl no se abre, comprueba que esté instalado en este dispositivo. Después, vuelve a pulsar «Abrir TallerControl».</p>
+    <noscript>Activa JavaScript para abrir TallerControl desde este enlace.</noscript>
+  </main>
+  <script>
+    (() => {
+      const status = document.getElementById('status');
+      const button = document.getElementById('open-app');
+      const hint = document.getElementById('install-hint');
+      const hash = window.location.hash;
+      const params = new URLSearchParams(hash.startsWith('#') ? hash.slice(1) : '');
+      const tokens = params.getAll('token');
+      const token = tokens.length === 1 ? tokens[0] : null;
+      if (!token || !/^[A-Za-z0-9_-]{32,256}$/.test(token)) {
+        status.textContent = 'El enlace de recuperación no contiene un token válido. Solicita uno nuevo desde TallerControl.';
+        status.className = 'error';
+        return;
+      }
+      // Remove the fragment from the address bar and history; keep the token only in memory.
+      window.history.replaceState(null, '', window.location.pathname);
+      const deepLink = 'tallercontrol://reset-password?token=' + encodeURIComponent(token);
+      const openApp = () => {
+        try {
+          // Reject relative URLs so the token cannot become an HTTPS path.
+          const target = new URL(deepLink);
+          if (target.protocol !== 'tallercontrol:') {
+            throw new TypeError('Unsupported protocol');
+          }
+          window.location.assign(target.href);
+        } catch (_) {
+          status.textContent = 'Este navegador no puede abrir el enlace de TallerControl. Comprueba que la aplicación esté instalada y solicita ayuda para abrir la recuperación.';
+          status.className = 'error';
+        }
+      };
+      button.hidden = false;
+      hint.hidden = false;
+      status.textContent = 'Pulsa el botón para crear una nueva contraseña en TallerControl.';
+      button.addEventListener('click', openApp);
+      window.setTimeout(openApp, 200);
+    })();
+  </script>
+</body>
+</html>
