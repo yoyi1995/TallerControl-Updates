@@ -1,0 +1,23 @@
+{
+  "version": "1.0.2",
+  "build": 8,
+  "publishedAt": "2026-10-19T23:31:14Z",
+  "minimumSupportedVersion": "1.0.0",
+  "mandatory": false,
+  "notes": [
+    "Vinculación LAN por QR o dirección IP y código.",
+    "Trabajo local sin Internet y sincronización de cambios admitidos.",
+    "Recuperación de contraseña y mayor aislamiento entre talleres.",
+    "Mejoras de instalación, actualizaciones y estabilidad."
+  ],
+  "windows": {
+    "url": "https://github.com/yoyi1995/TallerControl-Updates/releases/download/v1.0.2/TallerControl-Setup-1.0.2.exe",
+    "sha256": "6970a58bf1de77843f51a75de4d882a26c57483ce4b489197ff48c4a84c61178",
+    "size": 16029448
+  },
+  "android": {
+    "url": "https://github.com/yoyi1995/TallerControl-Updates/releases/download/v1.0.2/TallerControl-Android-1.0.2.apk",
+    "sha256": "c18ec44809adcaa20bbd0d6deed750f7888562bd4be04022be18209ca258f030",
+    "size": 96547587
+  }
+}
