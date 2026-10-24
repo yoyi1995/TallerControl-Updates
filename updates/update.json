@@ -1,24 +1,23 @@
 {
-  "version": "1.0.3",
-  "build": 10,
-  "publishedAt": "2026-10-22T01:12:08Z",
+  "version": "1.1.0",
+  "build": 11,
+  "publishedAt": "2026-10-24T23:08:11Z",
   "minimumSupportedVersion": "1.0.0",
   "mandatory": false,
   "notes": [
-    "Nuevo modulo Caja: apertura, cierre, arqueo e historial.",
-    "Cobros por metodo de pago, ingresos, gastos, retiros, ajustes y reversos.",
-    "Permisos de Caja y mejoras de estabilidad.",
-    "Android: QR en Red Local, datos locales sin LAN y sincronizacion al reconectar.",
-    "Aviso automatico de nuevas versiones con opcion de actualizar mas tarde."
+    "Sincronizacion Cloud entre dispositivos y trabajo fuera de LAN con replica local/offline.",
+    "Finanzas y Caja multidispositivo, abonos en recepcion y ordenes concurrentes.",
+    "Restore Cloud de datos estructurados y metadata de fotos; archivos originales por LAN/local/.tgbak.",
+    "Fotos Windows/Android optimizadas y sincronizadas por LAN; mejoras de Caja, tecnicos y estabilidad."
   ],
   "windows": {
-    "url": "https://github.com/yoyi1995/TallerControl-Updates/releases/download/v1.0.3/TallerControl-Setup-1.0.3.exe",
-    "sha256": "8b0df116283f036bf5665ad24f5e0652204a13fe09641d3c326a6d80e8de63d4",
-    "size": 16100623
+    "url": "https://github.com/yoyi1995/TallerControl-Updates/releases/download/v1.1.0/TallerControl-Setup-1.1.0.exe",
+    "sha256": "64e2508a1eb1d1d8ef054f6cc42cdb5c49c990982b7f64567a69a135643c4c70",
+    "size": 16307301
   },
   "android": {
-    "url": "https://github.com/yoyi1995/TallerControl-Updates/releases/download/v1.0.3/TallerControl-Android-1.0.3.apk",
-    "sha256": "cd9d08078876c540fb9d75042b71f70fa4f2459259282f2072a81134ed3b8219",
-    "size": 97186743
+    "url": "https://github.com/yoyi1995/TallerControl-Updates/releases/download/v1.1.0/TallerControl-Android-1.1.0.apk",
+    "sha256": "28606d362bc9a11ccf7db90d3370abaa179c6a7b0333aa4459c8f050260fb6cd",
+    "size": 99384160
   }
 }
