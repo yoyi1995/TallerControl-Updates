@@ -1,24 +1,22 @@
 {
-    "version":  "1.1.1",
-    "build":  12,
-    "publishedAt":  "2026-10-26T15:49:27Z",
-    "minimumSupportedVersion":  "1.0.0",
-    "mandatory":  false,
-    "notes":  [
-                  "Prueba LOCAL gratuita de 15 días.",
-                  "Mejoras en inicio de sesión y configuración inicial.",
-                  "Acceso temporal seguro para cuentas Cloud.",
-                  "Mejoras visuales y de experiencia.",
-                  "Correcciones de licenciamiento y pagos."
-              ],
-    "windows":  {
-                    "url":  "https://github.com/yoyi1995/TallerControl-Updates/releases/download/v1.1.1/TallerControl-Setup-1.1.1.exe",
-                    "sha256":  "BB976973CAF1F077C7F0F63171283EC753CFA9E7EDADE7B06FDF41C03160C10F",
-                    "size":  16300361
-                },
-    "android":  {
-                    "url":  "https://github.com/yoyi1995/TallerControl-Updates/releases/download/v1.1.1/TallerControl-Android-1.1.1.apk",
-                    "sha256":  "9BFA71366F22A603C53EF99EDE0190C78AE4CB8444745ABDF9A166945669D35D",
-                    "size":  99416860
-                }
+  "version": "1.1.2",
+  "build": 13,
+  "publishedAt": "2026-10-26T17:18:50Z",
+  "minimumSupportedVersion": "1.0.0",
+  "mandatory": false,
+  "notes": [
+    "Mejoras en el actualizador Android.",
+    "Solicitud guiada del permiso para instalar actualizaciones.",
+    "Mensajes de error mas claros al instalar APK."
+  ],
+  "windows": {
+    "url": "https://github.com/yoyi1995/TallerControl-Updates/releases/download/v1.1.2/TallerControl-Setup-1.1.2.exe",
+    "sha256": "A2E8E01251C6BBD275207A21770674DF4F0567FFEF1E93879AE6457981523C44",
+    "size": 16300808
+  },
+  "android": {
+    "url": "https://github.com/yoyi1995/TallerControl-Updates/releases/download/v1.1.2/TallerControl-Android-1.1.2.apk",
+    "sha256": "B412D748DD62D15D7B6B7B7E5CA946F2C7015FF46AE28824F4E6C29DE8FE72C9",
+    "size": 99416864
+  }
 }
