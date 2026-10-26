@@ -5,11 +5,7 @@
     "minimumSupportedVersion":  "1.0.0",
     "mandatory":  false,
     "notes":  [
-                  "Prueba LOCAL gratuita de 15 dÃ­as.",
-                  "Mejoras en inicio de sesiÃ³n y configuraciÃ³n inicial.",
-                  "Acceso temporal seguro para cuentas Cloud.",
-                  "Mejoras visuales y de experiencia.",
-                  "Correcciones de licenciamiento y pagos."
+                  "Prueba LOCAL gratuita de 15 días. Mejoras en inicio de sesión y configuración inicial. Acceso temporal seguro para cuentas Cloud. Mejoras visuales y de experiencia. Correcciones de licenciamiento y pagos."
               ],
     "windows":  {
                     "url":  "https://github.com/yoyi1995/TallerControl-Updates/releases/download/v1.1.1/TallerControl-Setup-1.1.1.exe",
