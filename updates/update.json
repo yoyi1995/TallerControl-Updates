@@ -1,23 +1,24 @@
 {
-  "version": "1.1.0",
-  "build": 11,
-  "publishedAt": "2026-10-24T23:08:11Z",
-  "minimumSupportedVersion": "1.0.0",
-  "mandatory": false,
-  "notes": [
-    "Sincronizacion Cloud entre dispositivos y trabajo fuera de LAN con replica local/offline.",
-    "Finanzas y Caja multidispositivo, abonos en recepcion y ordenes concurrentes.",
-    "Restore Cloud de datos estructurados y metadata de fotos; archivos originales por LAN/local/.tgbak.",
-    "Fotos Windows/Android optimizadas y sincronizadas por LAN; mejoras de Caja, tecnicos y estabilidad."
-  ],
-  "windows": {
-    "url": "https://github.com/yoyi1995/TallerControl-Updates/releases/download/v1.1.0/TallerControl-Setup-1.1.0.exe",
-    "sha256": "64e2508a1eb1d1d8ef054f6cc42cdb5c49c990982b7f64567a69a135643c4c70",
-    "size": 16307301
-  },
-  "android": {
-    "url": "https://github.com/yoyi1995/TallerControl-Updates/releases/download/v1.1.0/TallerControl-Android-1.1.0.apk",
-    "sha256": "28606d362bc9a11ccf7db90d3370abaa179c6a7b0333aa4459c8f050260fb6cd",
-    "size": 99384160
-  }
+    "version":  "1.1.1",
+    "build":  12,
+    "publishedAt":  "2026-10-26T15:49:27Z",
+    "minimumSupportedVersion":  "1.0.0",
+    "mandatory":  false,
+    "notes":  [
+                  "Prueba LOCAL gratuita de 15 dÃ­as.",
+                  "Mejoras en inicio de sesiÃ³n y configuraciÃ³n inicial.",
+                  "Acceso temporal seguro para cuentas Cloud.",
+                  "Mejoras visuales y de experiencia.",
+                  "Correcciones de licenciamiento y pagos."
+              ],
+    "windows":  {
+                    "url":  "https://github.com/yoyi1995/TallerControl-Updates/releases/download/v1.1.1/TallerControl-Setup-1.1.1.exe",
+                    "sha256":  "BB976973CAF1F077C7F0F63171283EC753CFA9E7EDADE7B06FDF41C03160C10F",
+                    "size":  16300361
+                },
+    "android":  {
+                    "url":  "https://github.com/yoyi1995/TallerControl-Updates/releases/download/v1.1.1/TallerControl-Android-1.1.1.apk",
+                    "sha256":  "9BFA71366F22A603C53EF99EDE0190C78AE4CB8444745ABDF9A166945669D35D",
+                    "size":  99416860
+                }
 }
