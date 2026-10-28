@@ -1,20 +1,23 @@
 {
-    "version":  "1.1.4",
-    "build":  15,
-    "publishedAt":  "2026-10-28T01:25:18Z",
+    "version":  "1.1.5",
+    "build":  16,
+    "publishedAt":  "2026-10-28T03:02:12Z",
     "minimumSupportedVersion":  "1.0.0",
     "mandatory":  false,
     "notes":  [
-                  "Corrección del actualizador Android para usar la carpeta segura nativa de la aplicación."
+                  "Nueva sección de dispositivos vinculados en Red local.",
+                  "Visualización de plataforma, usuario, rol y estado de conexión.",
+                  "Posibilidad de desvincular dispositivos desde una cuenta ADMIN.",
+                  "Mejoras de estabilidad del actualizador Android."
               ],
     "windows":  {
-                    "url":  "https://github.com/yoyi1995/TallerControl-Updates/releases/download/v1.1.4/TallerControl-Setup-1.1.4.exe",
-                    "sha256":  "7D31FD3AC65D8CE1605E63F7149F9AF520269D5C75F359264B1AF73E33C076A0",
-                    "size":  16311980
+                    "url":  "https://github.com/yoyi1995/TallerControl-Updates/releases/download/v1.1.5/TallerControl-Setup-1.1.5.exe",
+                    "sha256":  "2A992C359C805584D90CB43FBD303A7383EF77C693FCE0E70A5D4AE07900FF6C",
+                    "size":  16322920
                 },
     "android":  {
-                    "url":  "https://github.com/yoyi1995/TallerControl-Updates/releases/download/v1.1.4/TallerControl-Android-1.1.4.apk",
-                    "sha256":  "6E904967E64357D8953D9A3D9F55A8699FA1E18D5FBAE5321104519418449029",
-                    "size":  99597456
+                    "url":  "https://github.com/yoyi1995/TallerControl-Updates/releases/download/v1.1.5/TallerControl-Android-1.1.5.apk",
+                    "sha256":  "C67E89AD271008E6831CD90CB1AB118F1FF00192011E92072A39E2905628B427",
+                    "size":  99695824
                 }
 }
