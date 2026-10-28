@@ -1,23 +1,20 @@
 {
-  "version": "1.1.3",
-  "build": 14,
-  "publishedAt": "2026-10-27T04:17:21Z",
-  "minimumSupportedVersion": "1.0.0",
-  "mandatory": false,
-  "notes": [
-    "Nuevo diseño de configuración inicial.",
-    "Auditoría más clara y fácil de consultar.",
-    "Nuevos registros de acciones importantes del taller.",
-    "Mejoras en el actualizador Android."
-  ],
-  "windows": {
-    "url": "https://github.com/yoyi1995/TallerControl-Updates/releases/download/v1.1.3/TallerControl-Setup-1.1.3.exe",
-    "sha256": "D16DCF75B97087D16B86A0B07C0D3145EC259CA7952ABF8A7C0EF12CE3E62DC7",
-    "size": 16314330
-  },
-  "android": {
-    "url": "https://github.com/yoyi1995/TallerControl-Updates/releases/download/v1.1.3/TallerControl-Android-1.1.3.apk",
-    "sha256": "6A2D589A132F786EE21387220BA002F4A3532EF9748A85F7D2D18E02035A09F7",
-    "size": 99597456
-  }
+    "version":  "1.1.4",
+    "build":  15,
+    "publishedAt":  "2026-10-28T01:25:18Z",
+    "minimumSupportedVersion":  "1.0.0",
+    "mandatory":  false,
+    "notes":  [
+                  "Corrección del actualizador Android para usar la carpeta segura nativa de la aplicación."
+              ],
+    "windows":  {
+                    "url":  "https://github.com/yoyi1995/TallerControl-Updates/releases/download/v1.1.4/TallerControl-Setup-1.1.4.exe",
+                    "sha256":  "7D31FD3AC65D8CE1605E63F7149F9AF520269D5C75F359264B1AF73E33C076A0",
+                    "size":  16311980
+                },
+    "android":  {
+                    "url":  "https://github.com/yoyi1995/TallerControl-Updates/releases/download/v1.1.4/TallerControl-Android-1.1.4.apk",
+                    "sha256":  "6E904967E64357D8953D9A3D9F55A8699FA1E18D5FBAE5321104519418449029",
+                    "size":  99597456
+                }
 }
