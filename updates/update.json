@@ -1,23 +1,26 @@
 {
-    "version":  "1.1.5",
-    "build":  16,
-    "publishedAt":  "2026-10-28T03:02:12Z",
-    "minimumSupportedVersion":  "1.0.0",
-    "mandatory":  false,
-    "notes":  [
-                  "Nueva sección de dispositivos vinculados en Red local.",
-                  "Visualización de plataforma, usuario, rol y estado de conexión.",
-                  "Posibilidad de desvincular dispositivos desde una cuenta ADMIN.",
-                  "Mejoras de estabilidad del actualizador Android."
-              ],
-    "windows":  {
-                    "url":  "https://github.com/yoyi1995/TallerControl-Updates/releases/download/v1.1.5/TallerControl-Setup-1.1.5.exe",
-                    "sha256":  "2A992C359C805584D90CB43FBD303A7383EF77C693FCE0E70A5D4AE07900FF6C",
-                    "size":  16322920
-                },
-    "android":  {
-                    "url":  "https://github.com/yoyi1995/TallerControl-Updates/releases/download/v1.1.5/TallerControl-Android-1.1.5.apk",
-                    "sha256":  "C67E89AD271008E6831CD90CB1AB118F1FF00192011E92072A39E2905628B427",
-                    "size":  99695824
-                }
+    "version": "1.2.0",
+    "build": 17,
+    "publishedAt": "2026-11-09T04:50:23Z",
+    "minimumSupportedVersion": "1.0.0",
+    "mandatory": false,
+    "notes": [
+        "Soporte para distintos tipos de talleres.",
+        "Nuevos tipos flexibles de equipos y vehículos.",
+        "Mejoras de inventario, stock inicial, códigos y barcode.",
+        "Mejoras de sincronización LAN y Cloud.",
+        "Trial de 15 días validado.",
+        "Mejoras de compatibilidad de backups.",
+        "Mejoras de seguridad y estabilidad."
+    ],
+    "windows": {
+        "url": "https://github.com/yoyi1995/TallerControl-Updates/releases/download/v1.2.0/TallerControl-Setup-1.2.0.exe",
+        "sha256": "4568D05A237DB5255C30DE8883423CB9A263E9C04B85440CA2A4E8B466153D31",
+        "size": 16388168
+    },
+    "android": {
+        "url": "https://github.com/yoyi1995/TallerControl-Updates/releases/download/v1.2.0/TallerControl-Android-1.2.0.apk",
+        "sha256": "E1A492496F0F4AE4BA6C3D9225482072B4B3F9A5A6EB192B466EF1FDDA991939",
+        "size": 100318332
+    }
 }
