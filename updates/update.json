@@ -1,7 +1,7 @@
 {
-    "version": "1.2.0",
-    "build": 17,
-    "publishedAt": "2026-11-09T04:50:23Z",
+    "version": "1.2.1",
+    "build": 18,
+    "publishedAt": "2026-11-13T23:22:14Z",
     "minimumSupportedVersion": "1.0.0",
     "mandatory": false,
     "notes": [
@@ -14,13 +14,13 @@
         "Mejoras de seguridad y estabilidad."
     ],
     "windows": {
-        "url": "https://github.com/yoyi1995/TallerControl-Updates/releases/download/v1.2.0/TallerControl-Setup-1.2.0.exe",
-        "sha256": "4568D05A237DB5255C30DE8883423CB9A263E9C04B85440CA2A4E8B466153D31",
-        "size": 16388168
+        "url": "https://github.com/yoyi1995/TallerControl-Updates/releases/download/v1.2.1/TallerControl-Setup-1.2.1.exe",
+        "sha256": "8BA98B1925F15BF81C70EF663153207B22F6C582F351837A6BB4DD7C201CB2F5",
+        "size": 16453417
     },
     "android": {
-        "url": "https://github.com/yoyi1995/TallerControl-Updates/releases/download/v1.2.0/TallerControl-Android-1.2.0.apk",
-        "sha256": "E1A492496F0F4AE4BA6C3D9225482072B4B3F9A5A6EB192B466EF1FDDA991939",
-        "size": 100318332
+        "url": "https://github.com/yoyi1995/TallerControl-Updates/releases/download/v1.2.1/TallerControl-Android-1.2.1.apk",
+        "sha256": "E29FD7F767C5840A4510CBC2199ED1723E7A0A884915B7708F316D7A4945B8E9",
+        "size": 101022908
     }
 }
